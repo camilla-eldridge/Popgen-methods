@@ -10,7 +10,7 @@ library(pegas)
 
 
 # Read data into popgenome #
-GENOME.class <- readData("/home/milly/Desktop/CD63/fasta", format = "fasta", outgroup = FALSE)
+GENOME.class <- readData("/path/to/fasta", format = "fasta", outgroup = FALSE)
 
 # Available statistics and examples 
 show.slots(GENOME.class) 
